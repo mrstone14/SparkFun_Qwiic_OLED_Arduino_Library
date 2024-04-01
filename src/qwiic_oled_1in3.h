@@ -65,8 +65,8 @@
 #define kOLED1in3VCOM 0x40
 #define kOLED1in3Contrast 0xCF
 
-#define kOLED1in3DefaultAddress 0x3D
-#define kOLED1in3AltAddress 0x3C
+#define kOLED1in3DefaultAddress 0x3C
+#define kOLED1in3AltAddress 0x3D
 
 class QwOLED1in3 : public QwGrSSD1306 {
 
