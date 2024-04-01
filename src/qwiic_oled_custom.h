@@ -65,8 +65,8 @@
 #define kOLEDCustomDefaultVCOM 0x40
 #define kOLEDCustomDefaultContrast 0xCF
 
-#define kOLEDCustomDefaultDefaultAddress 0x3D
-#define kOLEDCustomDefaultAltAddress 0x3C
+#define kOLEDCustomDefaultDefaultAddress 0x3C
+#define kOLEDCustomDefaultAltAddress 0x3D
 
 class QwOLEDCustom : public QwGrSSD1306 {
 
