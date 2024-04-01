@@ -64,8 +64,8 @@
 #define kOLEDMicroPreCharge 0xF1
 #define kOLEDMicroVCOM 0x40
 
-#define kOLEDMicroDefaultAddress 0x78
-#define kOLEDMicroAltAddress 0x7A
+#define kOLEDMicroDefaultAddress 0x3C
+#define kOLEDMicroAltAddress 0x3D
 
 class QwOLEDMicro : public QwGrSSD1306 {
 
