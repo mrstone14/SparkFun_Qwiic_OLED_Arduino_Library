@@ -115,7 +115,7 @@
 // Define unique values just outside of the screen buffer (SSD1306) page range
 // (0 base) Note: A page  is 128 bits in length
 
-#define kPageMin -1  // outside bounds - low value
+#define kPageMin 0  // outside bounds - low value
 #define kPageMax 132 // outside bounds - high value
 
 // clean/ no settings in the page
