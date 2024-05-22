@@ -38,7 +38,7 @@ A full [API Reference](../api_device) is also provided for the library.
 
 The SparkFun Qwiic OLED Arduino Library supports the following SparkFun products.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/22495">
       <figure markdown>
@@ -115,7 +115,7 @@ The following architectures are supported in the Arduino Library.
 
 Below are a few of those processors populated on Arduino boards from the [SparkFun catalog](https://www.sparkfun.com/categories/242). You will need to make sure to check the associated hookup guides for additional information about compatible cables, drivers, or board add-ons.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/15574">
       <figure markdown>
@@ -237,4 +237,6 @@ Below are a few of those processors populated on Arduino boards from the [SparkF
 
 ### License
 
-The SparkFun Qwiic OLED Arduino Library is licensed using the Open Source [MIT License](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library/blob/main/LICENSE.md).
+The SparkFun Qwiic OLED Arduino Library is licensed using the Open Source [MIT License](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library/blob/main/LICENSE.md#code):
+
+    --8<-- "LICENSE.md:35:55"
