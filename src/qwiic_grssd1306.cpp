@@ -116,7 +116,7 @@
 // (0 base) Note: A page  is 128 bits in length
 
 #define kPageMin -1  // outside bounds - low value
-#define kPageMax 128 // outside bounds - high value
+#define kPageMax 132 // outside bounds - high value
 
 // clean/ no settings in the page
 #define pageIsClean(_page_) (_page_.xmin == kPageMax)
