@@ -747,7 +747,7 @@ template <typename SSD1306DeviceType> class QwiicOLEDBaseClass : public Print //
         if (x < 0 || x >= m_device.width() || y < 0 || y >= m_device.height())
             return;
 
-        m_cursorX = x;
+        m_cursorX = x+1;
         m_cursorY = y;
     }
 
