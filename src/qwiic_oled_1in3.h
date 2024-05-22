@@ -56,7 +56,7 @@
 #define kOLED1in3Width 128
 #define kOLED1in3Height 64
 
-#define kOLED1in3XOffset 1
+#define kOLED1in3XOffset 0
 #define kOLED1in3YOffset 0
 
 // Parameters for this device
