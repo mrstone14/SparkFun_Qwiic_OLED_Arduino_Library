@@ -118,7 +118,7 @@ template <typename SSD1306DeviceType> class QwiicOLEDBaseClass : public Print //
     {
 
         // defaults for Arduino Print
-        setCursor(0, 0);
+        setCursor(2, 0);
         setColor(COLOR_WHITE);
 
         m_i2cBus.init(wirePort);
