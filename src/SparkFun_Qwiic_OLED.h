@@ -810,7 +810,7 @@ template <typename SSD1306DeviceType> class QwiicOLEDBaseClass : public Print //
 
             if (m_cursorX > m_device.width() - pFont->width)
             { // overflow
-                m_cursorX = 0;
+                m_cursorX = 1;
                 m_cursorY += pFont->height;
             }
             break;
