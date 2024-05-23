@@ -797,7 +797,7 @@ template <typename SSD1306DeviceType> class QwiicOLEDBaseClass : public Print //
         switch (theChar)
         {
         case '\n': // Carriage return
-            m_cursorX = 0;
+            m_cursorX = 1;
             m_cursorY += pFont->height;
         case '\r': // Line feed - do nothing
             break;
