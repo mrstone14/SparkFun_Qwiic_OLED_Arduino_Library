@@ -804,7 +804,7 @@ template <typename SSD1306DeviceType> class QwiicOLEDBaseClass : public Print //
         default:
 
             char buffer[2] = {theChar, '\0'}; // text() needs a c string
-            m_device.text(m_cursorX, m_cursorY, buffer, m_color);
+            m_device.text(m_cursorX+1, m_cursorY, buffer, m_color);
 
             m_cursorX += pFont->width + 1;
 
